@@ -1,0 +1,38 @@
+[
+    {
+        "doc_id": "https://cotidianul.md/2019/03/05/comisia-pentru-transport-si-turism-din-pe-a-votat-pentru-renuntarea-la-schimbarea-orei/",
+        "text_original": "Documentul a fost aprobat de Comisia pentru Transport și Turism din Parlamentul European cu 23 de voturi pentru și 11 împotrivă, modificând față de propunerea Comisiei Europene anul de când ar deveni aplicabilă schimbarea permanentă a orei pentru statele care doresc să facă acest lucru, respectiv 2021 în loc de 2019.",
+        "expresie_gasita": "deveni",
+        "id_expresie": "derc_002678"
+    },
+    {
+        "doc_id": "https://www.jurnal.md/ro/news/20cc9956866fc965/fostul-ministru-al-apararii-si-director-al-sis-valeriu-pasat-a-pierdut-procesul-impotriva-ministerului-de-externe.html",
+        "text_original": "Eu din start am auzit că se lucrează pentru o astfel de decizie, iar cererea mea să fie respinsă. Cererea, repet încă o dată, a fost foarte simplă. Hai să condamnăm și atât.",
+        "expresie_gasita": "auzi",
+        "id_expresie": "derc_000865"
+    },
+    {
+        "doc_id": "https://cotidianul.md/2020/03/31/pacientii-cu-covid-19-au-acces-la-telefoanele-mobile-sau-nu-precizarea-ministerului-sanatatii/",
+        "text_original": "Vloggerul a întrebat dacă nu cumva pacienții infectați cu coronavirus sunt deposedați de telefoanele mobile și li se interzice accesul la internet?",
+        "expresie_gasita": "E de el",
+        "id_expresie": "derc_002556"
+    },
+    {
+        "doc_id": "https://cotidianul.md/2020/03/31/pacientii-cu-covid-19-au-acces-la-telefoanele-mobile-sau-nu-precizarea-ministerului-sanatatii/",
+        "text_original": "Vloggerul a întrebat dacă nu cumva pacienții infectați cu coronavirus sunt deposedați de telefoanele mobile și li se interzice accesul la internet?",
+        "expresie_gasita": "nu cumva",
+        "id_expresie": "derc_003410"
+    },
+    {
+        "doc_id": "https://cotidianul.md/2020/03/31/pacientii-cu-covid-19-au-acces-la-telefoanele-mobile-sau-nu-precizarea-ministerului-sanatatii/",
+        "text_original": "La scurt timp, Ministerul Sănătății, Muncii și Protecției Sociale a venit cu o precizare:\n„Toți pacienții internați cu infecția COVID-19, în cadrul instituțiilor medicale strategice, au acces la telefoanele mobile personale.",
+        "expresie_gasita": "avea cu",
+        "id_expresie": "derc_000916"
+    },
+    {
+        "doc_id": "https://cotidianul.md/2018/05/09/republica-moldova-importa-dublu-mai-mult-decat-exporta/",
+        "text_original": "Exporturile spre piața românească au crescut cu 30 la sută față de primele trei luni ale anului trecut.",
+        "expresie_gasita": "avea cu",
+        "id_expresie": "derc_000916"
+    }
+]
