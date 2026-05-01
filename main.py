@@ -53,8 +53,12 @@ if utilizator != "Alege":
             df.at[idx, 'Tip_Variatie'] = variatie
             df.at[idx, 'Verificat_De'] = utilizator
             
-            # Salvăm baza de date ca să nu se piardă munca echipei
+            # Salvăm baza de date
             df.to_csv(DB_FILE, index=False)
-            st.rerun() # Reîncărcăm pagina pentru următoarea propoziție
-    else:
-        st.success("🎉 GOLD SET-UL ESTE GATA! Toată lumea și-a terminat treaba!")
+            
+            # --- FIX-UL AICI ---
+            # Ștergem memoria cache ca la următorul refresh să citească noul CSV
+            st.cache_data.clear() 
+            
+            # Dăm refresh la pagină pentru a trece la următoarea propoziție
+            st.rerun()
