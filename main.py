@@ -10,7 +10,7 @@ st.set_page_config(page_title="Adnotare Gold Set - DERC", layout="wide")
 # CONFIGURARE GOOGLE FORMS (PUNE DATELE TALE AICI)
 # ==========================================
 # 1. URL-ul formularului (ATENȚIE: trebuie să se termine în formResponse, nu viewform)
-FORM_URL = "https://docs.google.com/forms/d/1-Rhe85ys-DDsJcNEIOCQyZMxyTvq8r3ESKpoo-CIprM/edit#responses"
+FORM_URL = "https://forms.gle/nR5CFjRTwXkmBj517"
 
 # 2. Pune ID-urile extrase din pre-filled link
 ENTRY_TEXT = "entry.1940749737"      # Câmpul pentru Textul din Știre
