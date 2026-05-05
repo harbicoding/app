@@ -34,5 +34,11 @@
         "text_original": "Exporturile spre piața românească au crescut cu 30 la sută față de primele trei luni ale anului trecut.",
         "expresie_gasita": "avea cu",
         "id_expresie": "derc_000916"
+    },
+    {
+        "doc_id": "www.google.com",
+        "text_original": "test json added",
+        "expresie_gasita": "JSON",
+        "id_expresie": "derc_0007444"
     }
 ]
