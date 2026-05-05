@@ -1,0 +1,109 @@
+[
+  {
+    "gold_id": "gold_0001",
+    "doc_id": "https://cotidianul.md/2019/03/05/comisia-pentru-transport-si-turism-din-pe-a-votat-pentru-renuntarea-la-schimbarea-orei/",
+    "text_original": "Documentul a fost aprobat de Comisia pentru Transport și Turism din Parlamentul European cu 23 de voturi pentru și 11 împotrivă, modificând față de propunerea Comisiei Europene anul de când ar deveni aplicabilă schimbarea permanentă a orei pentru statele care doresc să facă acest lucru, respectiv 2021 în loc de 2019.",
+    "expresie_gasita": "deveni",
+    "id_expresie": "derc_002678",
+    "is_figurative": true,
+    "variation_type": "Flexiune",
+    "n_annotators": 1,
+    "agreement": "single",
+    "annotations": [
+      {
+        "annotator": "Adrian",
+        "raspuns": "DA",
+        "variatie": "Flexiune",
+        "timestamp": "2026-05-04T10:23:11"
+      }
+    ]
+  },
+  {
+    "gold_id": "gold_0002",
+    "doc_id": "https://www.jurnal.md/ro/news/20cc9956866fc965/fostul-ministru-al-apararii-si-director-al-sis-valeriu-pasat-a-pierdut-procesul-impotriva-ministerului-de-externe.html",
+    "text_original": "Eu din start am auzit că se lucrează pentru o astfel de decizie, iar cererea mea să fie respinsă. Cererea, repet încă o dată, a fost foarte simplă. Hai să condamnăm și atât.",
+    "expresie_gasita": "auzi",
+    "id_expresie": "derc_000865",
+    "is_figurative": true,
+    "variation_type": "Niciuna",
+    "n_annotators": 2,
+    "agreement": "unanimous",
+    "annotations": [
+      {
+        "annotator": "Daniel",
+        "raspuns": "DA",
+        "variatie": "Niciuna",
+        "timestamp": "2026-05-04T10:31:02"
+      },
+      {
+        "annotator": "Miruna",
+        "raspuns": "DA",
+        "variatie": "Niciuna",
+        "timestamp": "2026-05-04T11:05:40"
+      }
+    ]
+  },
+  {
+    "gold_id": "gold_0003",
+    "doc_id": "https://cotidianul.md/2020/03/31/pacientii-cu-covid-19-au-acces-la-telefoanele-mobile-sau-nu-precizarea-ministerului-sanatatii/",
+    "text_original": "Vloggerul a întrebat dacă nu cumva pacienții infectați cu coronavirus sunt deposedați de telefoanele mobile și li se interzice accesul la internet?",
+    "expresie_gasita": "E de el",
+    "id_expresie": "derc_002556",
+    "is_figurative": false,
+    "variation_type": "Niciuna",
+    "n_annotators": 1,
+    "agreement": "single",
+    "annotations": [
+      {
+        "annotator": "Petru",
+        "raspuns": "NU",
+        "variatie": "Niciuna",
+        "timestamp": "2026-05-04T11:30:00"
+      }
+    ]
+  },
+  {
+    "gold_id": "gold_0004",
+    "doc_id": "https://cotidianul.md/2020/03/31/pacientii-cu-covid-19-au-acces-la-telefoanele-mobile-sau-nu-precizarea-ministerului-sanatatii/",
+    "text_original": "Vloggerul a întrebat dacă nu cumva pacienții infectați cu coronavirus sunt deposedați de telefoanele mobile și li se interzice accesul la internet?",
+    "expresie_gasita": "nu cumva",
+    "id_expresie": "derc_003410",
+    "is_figurative": true,
+    "variation_type": "Niciuna",
+    "n_annotators": 1,
+    "agreement": "single",
+    "annotations": [
+      {
+        "annotator": "Petru",
+        "raspuns": "DA",
+        "variatie": "Niciuna",
+        "timestamp": "2026-05-04T11:42:18"
+      }
+    ]
+  },
+  {
+    "gold_id": "gold_0005",
+    "doc_id": "https://cotidianul.md/2018/05/09/republica-moldova-importa-dublu-mai-mult-decat-exporta/",
+    "text_original": "Exporturile spre piața românească au crescut cu 30 la sută față de primele trei luni ale anului trecut.",
+    "expresie_gasita": "avea cu",
+    "id_expresie": "derc_000916",
+    "is_figurative": false,
+    "variation_type": "Sens Literal (Fals Pozitiv)",
+    "n_annotators": 2,
+    "agreement": "split",
+    "annotations": [
+      {
+        "annotator": "Alin",
+        "raspuns": "NU",
+        "variatie": "Sens Literal (Fals Pozitiv)",
+        "timestamp": "2026-05-04T12:01:55"
+      },
+      {
+        "annotator": "Robert",
+        "raspuns": "DA",
+        "variatie": "Substituție",
+        "timestamp": "2026-05-04T12:30:09"
+      }
+    ]
+  }
+]

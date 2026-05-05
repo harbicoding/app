@@ -24,7 +24,7 @@ USERS = ["Adrian", "Daniel", "Petru", "Miruna", "Alin", "Robert"]
 # ==========================================
 @st.cache_data
 def load_data():
-    path_1 = 'rezultate_rolargesum.json'
+    path_1 = 'generate_rolargesum.json'
     path_2 = 'corpus_processing/rezultate_rolargesum.json'
 
     fisier_bun = path_1 if os.path.exists(path_1) else path_2 if os.path.exists(path_2) else None
