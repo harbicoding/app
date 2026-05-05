@@ -28,6 +28,7 @@ def load_data():
     (candidații propuși de program), NU generate_rolargesum.json (gold setul OUTPUT).
     """
     paths_to_try = [
+        'generate_rolargesum.json',
         'rezultate_rolargesum.json',
         'corpus_processing/rezultate_rolargesum.json',
         'data/rezultate_rolargesum.json',
