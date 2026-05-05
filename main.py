@@ -1,5 +1,4 @@
 import streamlit as st
-import pandas as pd
 import requests
 import json
 import os
@@ -24,27 +23,48 @@ USERS = ["Adrian", "Daniel", "Petru", "Miruna", "Alin", "Robert"]
 # ==========================================
 @st.cache_data
 def load_data():
-    path_1 = 'generate_rolargesum.json'
-    path_2 = 'corpus_processing/rezultate_rolargesum.json'
+    """
+    Încarcă candidații de adnotat. ATENȚIE: trebuie rezultate_rolargesum.json
+    (candidații propuși de program), NU generate_rolargesum.json (gold setul OUTPUT).
+    """
+    paths_to_try = [
+        'rezultate_rolargesum.json',
+        'corpus_processing/rezultate_rolargesum.json',
+        'data/rezultate_rolargesum.json',
+    ]
+    for p in paths_to_try:
+        if os.path.exists(p):
+            with open(p, 'r', encoding='utf-8') as f:
+                return json.load(f), p
+    return [], None
 
-    fisier_bun = path_1 if os.path.exists(path_1) else path_2 if os.path.exists(path_2) else None
 
-    if fisier_bun:
-        with open(fisier_bun, 'r', encoding='utf-8') as f:
-            return json.load(f)
-    return []
+def split_evenly(n_items, n_users, user_idx):
+    """
+    Împarte n_items pe n_users cât mai uniform posibil.
+    Primii (n_items % n_users) users primesc câte un item în plus.
+
+    Ex: 7 itemi, 6 users -> primul ia 2, restul câte 1 each.
+    Ex: 5 itemi, 6 users -> primii 5 iau câte 1, ultimul primește 0.
+    """
+    base = n_items // n_users
+    remainder = n_items % n_users
+    if user_idx < remainder:
+        start = user_idx * (base + 1)
+        end = start + (base + 1)
+    else:
+        start = remainder * (base + 1) + (user_idx - remainder) * base
+        end = start + base
+    return start, end
 
 
 def get_chunk(rezultate, utilizator):
-    """Returnează (start_idx, end_idx, bucata) pentru utilizatorul dat."""
-    chunk_size = len(rezultate) // len(USERS)
     user_idx = USERS.index(utilizator)
-    start_idx = user_idx * chunk_size
-    end_idx = (user_idx + 1) * chunk_size if user_idx < len(USERS) - 1 else len(rezultate)
+    start_idx, end_idx = split_evenly(len(rezultate), len(USERS), user_idx)
     return start_idx, end_idx, rezultate[start_idx:end_idx]
 
 
-rezultate = load_data()
+rezultate, fisier_incarcat = load_data()
 
 # ==========================================
 # INTERFAȚA WEB
@@ -52,8 +72,16 @@ rezultate = load_data()
 st.title("🥇 Echipa Quality - Validare Gold Set")
 
 if not rezultate:
-    st.error("❌ Nu am găsit fișierul `rezultate_rolargesum.json`. Verifică dacă e urcat!")
+    st.error("❌ Nu am găsit `rezultate_rolargesum.json` în repo. Verifică dacă e urcat la rădăcina proiectului.")
     st.stop()
+
+# Sidebar cu info de debug - util pe Streamlit Cloud
+with st.sidebar:
+    st.caption(f"📁 Fișier încărcat: `{fisier_incarcat}`")
+    st.caption(f"📊 Total itemi: **{len(rezultate)}**")
+    if st.button("🔄 Reîncarcă din fișier (clear cache)"):
+        st.cache_data.clear()
+        st.rerun()
 
 utilizator = st.selectbox(
     "Cine ești? (Fiecare are bucata lui de rezolvat)",
@@ -65,16 +93,27 @@ if utilizator == "Alege":
 
 start_idx, end_idx, bucata_mea = get_chunk(rezultate, utilizator)
 
-st.info(f"Salut, **{utilizator}**! Tu ai de adnotat de la propoziția {start_idx} până la {end_idx} (total: {len(bucata_mea)}).")
+# Dacă chunk-ul e gol (mai puțini itemi decât users), nu mai poți face nimic
+if len(bucata_mea) == 0:
+    st.warning(
+        f"⚠️ {utilizator}, nu ai itemi de adnotat — sunt doar {len(rezultate)} itemi pentru "
+        f"{len(USERS)} adnotatori, deci nu mai rămâne nimic pentru tine. "
+        f"Mai urcă date în `rezultate_rolargesum.json` sau lasă pe ceilalți să termine primii."
+    )
+    st.stop()
+
+st.info(
+    f"Salut, **{utilizator}**! Ai de adnotat itemii {start_idx} → {end_idx - 1} "
+    f"(total: **{len(bucata_mea)}** propoziții)."
+)
 
 # ==========================================
-# SESSION STATE PER-USER (asta era bug-ul)
+# SESSION STATE PER-USER
 # ==========================================
 key_idx = f'idx_{utilizator}'
 if key_idx not in st.session_state:
     st.session_state[key_idx] = 0
 
-# Buton de reset, dacă vrei să o iei de la capăt
 col_a, col_b = st.columns([1, 4])
 with col_a:
     if st.button("🔄 Reset progres"):
