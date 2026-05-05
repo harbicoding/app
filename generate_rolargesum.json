@@ -1,109 +1,380 @@
 [
   {
-    "gold_id": "gold_0001",
-    "doc_id": "https://cotidianul.md/2019/03/05/comisia-pentru-transport-si-turism-din-pe-a-votat-pentru-renuntarea-la-schimbarea-orei/",
-    "text_original": "Documentul a fost aprobat de Comisia pentru Transport și Turism din Parlamentul European cu 23 de voturi pentru și 11 împotrivă, modificând față de propunerea Comisiei Europene anul de când ar deveni aplicabilă schimbarea permanentă a orei pentru statele care doresc să facă acest lucru, respectiv 2021 în loc de 2019.",
-    "expresie_gasita": "deveni",
-    "id_expresie": "derc_002678",
-    "is_figurative": true,
-    "variation_type": "Flexiune",
-    "n_annotators": 1,
-    "agreement": "single",
-    "annotations": [
-      {
-        "annotator": "Adrian",
-        "raspuns": "DA",
-        "variatie": "Flexiune",
-        "timestamp": "2026-05-04T10:23:11"
-      }
-    ]
+    "doc_id": "https://cotidianul.md/2023/04/12/declaratie-presedinte-buget",
+    "text_original": "Președintele a declarat că opoziția pune bețe în roate guvernului la fiecare proiect de lege important votat în ultimele luni.",
+    "expresie_gasita": "pune bețe în roate",
+    "id_expresie": "derc_001023"
   },
   {
-    "gold_id": "gold_0002",
-    "doc_id": "https://www.jurnal.md/ro/news/20cc9956866fc965/fostul-ministru-al-apararii-si-director-al-sis-valeriu-pasat-a-pierdut-procesul-impotriva-ministerului-de-externe.html",
-    "text_original": "Eu din start am auzit că se lucrează pentru o astfel de decizie, iar cererea mea să fie respinsă. Cererea, repet încă o dată, a fost foarte simplă. Hai să condamnăm și atât.",
-    "expresie_gasita": "auzi",
-    "id_expresie": "derc_000865",
-    "is_figurative": true,
-    "variation_type": "Niciuna",
-    "n_annotators": 2,
-    "agreement": "unanimous",
-    "annotations": [
-      {
-        "annotator": "Daniel",
-        "raspuns": "DA",
-        "variatie": "Niciuna",
-        "timestamp": "2026-05-04T10:31:02"
-      },
-      {
-        "annotator": "Miruna",
-        "raspuns": "DA",
-        "variatie": "Niciuna",
-        "timestamp": "2026-05-04T11:05:40"
-      }
-    ]
+    "doc_id": "https://www.jurnal.md/ro/news/politica/parlament-vot",
+    "text_original": "Funcționarii primăriei au tăiat frunză la câini ani la rând, fără să rezolve problemele de bază ale cetățenilor.",
+    "expresie_gasita": "tăiat frunză la câini",
+    "id_expresie": "derc_002145"
   },
   {
-    "gold_id": "gold_0003",
-    "doc_id": "https://cotidianul.md/2020/03/31/pacientii-cu-covid-19-au-acces-la-telefoanele-mobile-sau-nu-precizarea-ministerului-sanatatii/",
-    "text_original": "Vloggerul a întrebat dacă nu cumva pacienții infectați cu coronavirus sunt deposedați de telefoanele mobile și li se interzice accesul la internet?",
-    "expresie_gasita": "E de el",
-    "id_expresie": "derc_002556",
-    "is_figurative": false,
-    "variation_type": "Niciuna",
-    "n_annotators": 1,
-    "agreement": "single",
-    "annotations": [
-      {
-        "annotator": "Petru",
-        "raspuns": "NU",
-        "variatie": "Niciuna",
-        "timestamp": "2026-05-04T11:30:00"
-      }
-    ]
+    "doc_id": "https://agora.md/stiri/economie/curs-valutar",
+    "text_original": "Investitorii străini au fost trași pe sfoară cu promisiuni de profit care nu s-au materializat niciodată.",
+    "expresie_gasita": "trași pe sfoară",
+    "id_expresie": "derc_003401"
   },
   {
-    "gold_id": "gold_0004",
-    "doc_id": "https://cotidianul.md/2020/03/31/pacientii-cu-covid-19-au-acces-la-telefoanele-mobile-sau-nu-precizarea-ministerului-sanatatii/",
-    "text_original": "Vloggerul a întrebat dacă nu cumva pacienții infectați cu coronavirus sunt deposedați de telefoanele mobile și li se interzice accesul la internet?",
-    "expresie_gasita": "nu cumva",
-    "id_expresie": "derc_003410",
-    "is_figurative": true,
-    "variation_type": "Niciuna",
-    "n_annotators": 1,
-    "agreement": "single",
-    "annotations": [
-      {
-        "annotator": "Petru",
-        "raspuns": "DA",
-        "variatie": "Niciuna",
-        "timestamp": "2026-05-04T11:42:18"
-      }
-    ]
+    "doc_id": "https://cotidianul.md/2023/06/03/scandal-fiscal",
+    "text_original": "Ministrul și-a ieșit din fire când reporterul i-a pus o întrebare incomodă despre dosarul fiscal.",
+    "expresie_gasita": "ieșit din fire",
+    "id_expresie": "derc_004512"
   },
   {
-    "gold_id": "gold_0005",
-    "doc_id": "https://cotidianul.md/2018/05/09/republica-moldova-importa-dublu-mai-mult-decat-exporta/",
-    "text_original": "Exporturile spre piața românească au crescut cu 30 la sută față de primele trei luni ale anului trecut.",
-    "expresie_gasita": "avea cu",
-    "id_expresie": "derc_000916",
-    "is_figurative": false,
-    "variation_type": "Sens Literal (Fals Pozitiv)",
-    "n_annotators": 2,
-    "agreement": "split",
-    "annotations": [
-      {
-        "annotator": "Alin",
-        "raspuns": "NU",
-        "variatie": "Sens Literal (Fals Pozitiv)",
-        "timestamp": "2026-05-04T12:01:55"
-      },
-      {
-        "annotator": "Robert",
-        "raspuns": "DA",
-        "variatie": "Substituție",
-        "timestamp": "2026-05-04T12:30:09"
-      }
-    ]
+    "doc_id": "https://stirileprotv.ro/sport/fotbal/transfer",
+    "text_original": "Mijlocașul a dat cu piciorul unei oferte de cinci milioane de euro de la o echipă din Premier League.",
+    "expresie_gasita": "dat cu piciorul",
+    "id_expresie": "derc_005233"
+  },
+  {
+    "doc_id": "https://digi24.ro/stiri/justitie/proces",
+    "text_original": "Avocatul apărării a spus că bagă mâna în foc pentru nevinovăția clientului său în acest dosar de corupție.",
+    "expresie_gasita": "bagă mâna în foc",
+    "id_expresie": "derc_006117"
+  },
+  {
+    "doc_id": "https://hotnews.ro/economie/banca-nationala",
+    "text_original": "Piețele financiare au luat-o razna după anunțul neașteptat al Băncii Naționale privind dobânda de referință.",
+    "expresie_gasita": "luat-o razna",
+    "id_expresie": "derc_007084"
+  },
+  {
+    "doc_id": "https://adevarul.ro/politica/guvern-criza",
+    "text_original": "Premierul a făcut din țânțar armăsar dintr-o discuție tehnică, escaladând inutil tensiunea cu opoziția.",
+    "expresie_gasita": "făcut din țânțar armăsar",
+    "id_expresie": "derc_008291"
+  },
+  {
+    "doc_id": "https://g4media.ro/analiza/educatie",
+    "text_original": "După trei ore de explicații, abia atunci i-a picat fisa secretarului de stat în privința consecințelor reformei.",
+    "expresie_gasita": "picat fisa",
+    "id_expresie": "derc_009103"
+  },
+  {
+    "doc_id": "https://stiripesurse.ro/social/protest",
+    "text_original": "Sindicaliștii și-au pierdut răbdarea după luni de promisiuni neonorate din partea ministerului.",
+    "expresie_gasita": "pierdut răbdarea",
+    "id_expresie": "derc_010256"
+  },
+  {
+    "doc_id": "https://digi24.ro/stiri/sport/handbal",
+    "text_original": "Antrenorul s-a dat peste cap să motiveze echipa înaintea finalei, organizând antrenamente speciale și ședințe video.",
+    "expresie_gasita": "dat peste cap",
+    "id_expresie": "derc_011398"
+  },
+  {
+    "doc_id": "https://gandul.ro/politica/coalitie",
+    "text_original": "Liderul de partid a pus punctul pe i într-un discurs care a clarificat poziția oficială față de reformă.",
+    "expresie_gasita": "pus punctul pe i",
+    "id_expresie": "derc_012445"
+  },
+  {
+    "doc_id": "https://libertatea.ro/eveniment/incendiu",
+    "text_original": "Pompierii s-au luptat din răsputeri să stingă focul care amenința blocul de locuințe din apropiere.",
+    "expresie_gasita": "luptat din răsputeri",
+    "id_expresie": "derc_013012"
+  },
+  {
+    "doc_id": "https://digi24.ro/stiri/externe/uniunea-europeana",
+    "text_original": "Bruxelles-ul a tras un semnal de alarmă privind ritmul lent al reformelor judiciare din statul membru.",
+    "expresie_gasita": "tras un semnal de alarmă",
+    "id_expresie": "derc_014567"
+  },
+  {
+    "doc_id": "https://cotidianul.md/2023/09/15/criza-energetica",
+    "text_original": "Guvernul a închis ochii la abuzurile companiei de stat timp de mai mulți ani, susțin sursele apropiate dosarului.",
+    "expresie_gasita": "închis ochii",
+    "id_expresie": "derc_015234"
+  },
+  {
+    "doc_id": "https://hotnews.ro/politica/parlament",
+    "text_original": "Deputatul a vorbit în dodii la tribună, derutând până și colegii de partid prin afirmațiile sale.",
+    "expresie_gasita": "vorbit în dodii",
+    "id_expresie": "derc_016078"
+  },
+  {
+    "doc_id": "https://g4media.ro/social/educatie",
+    "text_original": "Profesorii au pus umărul la organizarea evenimentului, deși nu erau plătiți suplimentar pentru asta.",
+    "expresie_gasita": "pus umărul",
+    "id_expresie": "derc_017145"
+  },
+  {
+    "doc_id": "https://adevarul.ro/sport/fotbal-european",
+    "text_original": "Atacantul a marcat un gol care a dat apă la moară comentatorilor critici ai antrenorului.",
+    "expresie_gasita": "dat apă la moară",
+    "id_expresie": "derc_018291"
+  },
+  {
+    "doc_id": "https://stiripesurse.ro/justitie/dna",
+    "text_original": "Procurorii au prins cu mâța în sac un funcționar care primea mită în biroul instituției.",
+    "expresie_gasita": "prins cu mâța în sac",
+    "id_expresie": "derc_019402"
+  },
+  {
+    "doc_id": "https://libertatea.ro/eveniment/scandal",
+    "text_original": "Vedeta s-a făcut foc și pară când a aflat că imaginile sale au apărut pe rețelele sociale fără acord.",
+    "expresie_gasita": "făcut foc și pară",
+    "id_expresie": "derc_020156"
+  },
+  {
+    "doc_id": "https://gandul.ro/economie/inflatie",
+    "text_original": "Analiștii au atras atenția că măsurile guvernului bat apa în piuă fără un plan coerent pe termen lung.",
+    "expresie_gasita": "bat apa în piuă",
+    "id_expresie": "derc_021034"
+  },
+  {
+    "doc_id": "https://digi24.ro/stiri/social/sanatate",
+    "text_original": "Pacienții cronici au rămas cu buza umflată după ce noul program de compensare a fost amânat din nou.",
+    "expresie_gasita": "rămas cu buza umflată",
+    "id_expresie": "derc_022178"
+  },
+  {
+    "doc_id": "https://cotidianul.md/2024/01/22/buget-anual",
+    "text_original": "Ministrul finanțelor a sărit ca ars la întrebarea privind deficitul real al bugetului pe anul trecut.",
+    "expresie_gasita": "sărit ca ars",
+    "id_expresie": "derc_023089"
+  },
+  {
+    "doc_id": "https://stirileprotv.ro/social/justitie",
+    "text_original": "Martorul a spus că a băgat de seamă comportamentul suspect al inculpatului încă din primele zile de muncă.",
+    "expresie_gasita": "băgat de seamă",
+    "id_expresie": "derc_024256"
+  },
+  {
+    "doc_id": "https://hotnews.ro/social/familie",
+    "text_original": "Femeia a făcut zile fripte fostului soț, conform mărturiilor depuse la procesul de divorț.",
+    "expresie_gasita": "făcut zile fripte",
+    "id_expresie": "derc_025401"
+  },
+  {
+    "doc_id": "https://agro-info.ro/horticultura/ingrijire-plante",
+    "text_original": "Grădinarii au tăiat frunzele uscate din parcul central înaintea sărbătorilor de toamnă, pentru a permite curățenia.",
+    "expresie_gasita": "tăiat frunzele",
+    "id_expresie": "derc_002145"
+  },
+  {
+    "doc_id": "https://auto-pro.ro/reparatii/motor",
+    "text_original": "Mecanicul a băgat mâna în motor pentru a verifica nivelul uleiului și starea filtrelor de aer.",
+    "expresie_gasita": "băgat mâna",
+    "id_expresie": "derc_006117"
+  },
+  {
+    "doc_id": "https://stirileprotv.ro/sport/fotbal/cupa",
+    "text_original": "Atacantul a dat cu piciorul în minge cu toată forța, dar portarul advers a parat spectaculos lovitura.",
+    "expresie_gasita": "dat cu piciorul",
+    "id_expresie": "derc_005233"
+  },
+  {
+    "doc_id": "https://gospodaria-mea.ro/curatenie/spalat-rufe",
+    "text_original": "Bunica freca rufele la mână în curte, cu apă încălzită pe sobă și săpun de casă.",
+    "expresie_gasita": "freca",
+    "id_expresie": "derc_026017"
+  },
+  {
+    "doc_id": "https://copilul.ro/educatie/jocuri-creative",
+    "text_original": "Copiii au pus bețele de chibrit în formă de pătrat pe masa din bucătărie pentru a învăța geometrie.",
+    "expresie_gasita": "pus bețele",
+    "id_expresie": "derc_001023"
+  },
+  {
+    "doc_id": "https://meteo-romania.ro/regional/munte",
+    "text_original": "Vântul puternic a luat-o razna prin văile montane, dărâmând copaci și întrerupând curentul electric.",
+    "expresie_gasita": "luat-o razna",
+    "id_expresie": "derc_007084"
+  },
+  {
+    "doc_id": "https://retete-traditionale.ro/desert/cozonac",
+    "text_original": "Pentru aluatul perfect, trebuie să bați apa în piuă cu zahărul timp de zece minute, până devine spumoasă.",
+    "expresie_gasita": "bați apa în piuă",
+    "id_expresie": "derc_021034"
+  },
+  {
+    "doc_id": "https://digi24.ro/stiri/eveniment/incendiu",
+    "text_original": "Pompierii au stins focul în două ore, după ce flăcările cuprinseseră acoperișul depozitului industrial.",
+    "expresie_gasita": "stins focul",
+    "id_expresie": "derc_027112"
+  },
+  {
+    "doc_id": "https://gradinapasionatului.ro/sfaturi/iarna",
+    "text_original": "Înainte de iarnă, recomandăm să puneți umăr la umăr scândurile pentru a proteja straturile de legume.",
+    "expresie_gasita": "pus umăr",
+    "id_expresie": "derc_017145"
+  },
+  {
+    "doc_id": "https://sport.ro/atletism/maraton",
+    "text_original": "Sportivul a sărit ca ars peste obstacolul final, asigurându-și astfel medalia de aur la concurs.",
+    "expresie_gasita": "sărit ca ars",
+    "id_expresie": "derc_023089"
+  },
+  {
+    "doc_id": "https://hotnews.ro/politica/coalitie-criza",
+    "text_original": "De ani de zile, miniștrii pun bețe în roate proiectelor venite de la societatea civilă, blocând orice inițiativă.",
+    "expresie_gasita": "pun bețe în roate",
+    "id_expresie": "derc_001023"
+  },
+  {
+    "doc_id": "https://g4media.ro/analiza/justitie",
+    "text_original": "Procurorul a băgat mâna în foc pentru integritatea echipei sale în acest dosar sensibil.",
+    "expresie_gasita": "băgat mâna în foc",
+    "id_expresie": "derc_006117"
+  },
+  {
+    "doc_id": "https://digi24.ro/stiri/social/educatie",
+    "text_original": "Studenții taie frunză la câini în campus, în loc să se concentreze pe studiu, conform rectorului universității.",
+    "expresie_gasita": "taie frunză la câini",
+    "id_expresie": "derc_002145"
+  },
+  {
+    "doc_id": "https://adevarul.ro/economie/imobiliare",
+    "text_original": "Cumpărătorii au fost trași pe sfoară de dezvoltatorul imobiliar, care nu a livrat apartamentele la termenele promise.",
+    "expresie_gasita": "trași pe sfoară",
+    "id_expresie": "derc_003401"
+  },
+  {
+    "doc_id": "https://cotidianul.md/2024/03/08/parlament-blocaj",
+    "text_original": "Opoziția pune sistematic bețe în roate guvernului la fiecare proiect de lege strategică, conform observatorilor politici.",
+    "expresie_gasita": "pune sistematic bețe în roate",
+    "id_expresie": "derc_001023"
+  },
+  {
+    "doc_id": "https://stirileprotv.ro/social/scandal-public",
+    "text_original": "Vedeta a făcut din simplu țânțar un întreg armăsar pe baza unei observații banale a unui reporter local.",
+    "expresie_gasita": "făcut din simplu țânțar un întreg armăsar",
+    "id_expresie": "derc_008291"
+  },
+  {
+    "doc_id": "https://digi24.ro/stiri/politica/ministru",
+    "text_original": "Funcționarii au tăiat în continuare frunză la câini, ignorând directivele venite de la nivel central.",
+    "expresie_gasita": "tăiat în continuare frunză la câini",
+    "id_expresie": "derc_002145"
+  },
+  {
+    "doc_id": "https://hotnews.ro/economie/sanctiuni",
+    "text_original": "Companiile occidentale au fost duse de nas de partenerii locali timp de mai multe luni, înainte de descoperirea fraudei.",
+    "expresie_gasita": "duse de nas",
+    "id_expresie": "derc_003401"
+  },
+  {
+    "doc_id": "https://g4media.ro/politica/opozitie",
+    "text_original": "Aleșii pun piedici fiecărei reforme propuse de coaliție, în ciuda promisiunilor electorale de colaborare.",
+    "expresie_gasita": "pun piedici",
+    "id_expresie": "derc_001023"
+  },
+  {
+    "doc_id": "https://adevarul.ro/social/protest-civic",
+    "text_original": "Demonstranții au băgat degetul în foc pentru cauza colegilor lor reținuți de poliție în timpul protestului.",
+    "expresie_gasita": "băgat degetul în foc",
+    "id_expresie": "derc_006117"
+  },
+  {
+    "doc_id": "https://digi24.ro/stiri/economie/comert",
+    "text_original": "Exporturile au crescut cu 30 la sută față de aceeași perioadă a anului trecut, conform datelor oficiale.",
+    "expresie_gasita": "crescut cu",
+    "id_expresie": "derc_028045"
+  },
+  {
+    "doc_id": "https://stirileprotv.ro/sport/atletism",
+    "text_original": "Sportiva a luat-o de la capăt cu un nou antrenor după accidentarea care a ținut-o departe de competiții un an.",
+    "expresie_gasita": "luat-o de la capăt",
+    "id_expresie": "derc_029178"
+  },
+  {
+    "doc_id": "https://cotidianul.md/2024/02/14/cultura",
+    "text_original": "Tânărul scriitor și-a pus în cap să termine romanul până la finalul verii, în ciuda criticilor inițiale.",
+    "expresie_gasita": "pus în cap",
+    "id_expresie": "derc_030256"
+  },
+  {
+    "doc_id": "https://hotnews.ro/politica/cu-cine-vorbim",
+    "text_original": "Politicianul a vorbit în dodii la conferință, dar publicul a aplaudat fără să înțeleagă mesajul real.",
+    "expresie_gasita": "vorbit în dodii",
+    "id_expresie": "derc_016078"
+  },
+  {
+    "doc_id": "https://agora.md/stiri/social/economie",
+    "text_original": "Antreprenorii și-au făcut socoteala că noile taxe le vor scădea profitul cu cel puțin 15 la sută anul acesta.",
+    "expresie_gasita": "făcut socoteala",
+    "id_expresie": "derc_031089"
+  },
+  {
+    "doc_id": "https://g4media.ro/politica/diplomatie",
+    "text_original": "Ambasadorul a închis ochii la încălcările minore, concentrându-se pe negocierea tratatului principal.",
+    "expresie_gasita": "închis ochii",
+    "id_expresie": "derc_015234"
+  },
+  {
+    "doc_id": "https://digi24.ro/stiri/social/familie",
+    "text_original": "Părinții și-au pierdut răbdarea cu programul școlar haotic și au cerut ministrului o întâlnire urgentă.",
+    "expresie_gasita": "pierdut răbdarea",
+    "id_expresie": "derc_010256"
+  },
+  {
+    "doc_id": "https://libertatea.ro/eveniment/sport-extrem",
+    "text_original": "Alpinistul s-a dat peste cap în avalanșă, dar a reușit să iasă teafăr cu ajutorul echipei de salvare.",
+    "expresie_gasita": "dat peste cap",
+    "id_expresie": "derc_011398"
+  },
+  {
+    "doc_id": "https://gandul.ro/politica/coalitie-discutii",
+    "text_original": "Liderii partidelor au bătut palma asupra unui acord de guvernare după negocieri maraton de zece ore.",
+    "expresie_gasita": "bătut palma",
+    "id_expresie": "derc_032145"
+  },
+  {
+    "doc_id": "https://stiripesurse.ro/economie/investitii",
+    "text_original": "Concurența își freacă palmele după acest scandal financiar care lovește puternic în liderul de piață.",
+    "expresie_gasita": "freacă palmele",
+    "id_expresie": "derc_033201"
+  },
+  {
+    "doc_id": "https://cotidianul.md/2024/04/05/justitie-final",
+    "text_original": "Acuzatul s-a tras la răspundere abia după ce a fost confruntat cu probele video din timpul anchetei.",
+    "expresie_gasita": "tras la răspundere",
+    "id_expresie": "derc_034088"
+  },
+  {
+    "doc_id": "https://adevarul.ro/economie/criza-companii",
+    "text_original": "Investitorii își fac griji că noua reglementare va băga sub preș problemele reale ale sectorului bancar.",
+    "expresie_gasita": "băga sub preș",
+    "id_expresie": "derc_035167"
+  },
+  {
+    "doc_id": "https://hotnews.ro/politica/vot-buget",
+    "text_original": "Aleșii au votat cu inima strânsă bugetul revizuit, conștienți că vor urma tăieri dureroase.",
+    "expresie_gasita": "inima strânsă",
+    "id_expresie": "derc_036023"
+  },
+  {
+    "doc_id": "https://digi24.ro/stiri/justitie/proces-coruptie",
+    "text_original": "Apărarea a încercat să arunce praf în ochii juraților prin argumente tehnice complicate și nerelevante.",
+    "expresie_gasita": "arunce praf în ochi",
+    "id_expresie": "derc_037145"
+  },
+  {
+    "doc_id": "https://g4media.ro/politica/parlament-vot",
+    "text_original": "Deputații au tras chiulul de la ședința de luni, conform listei de prezență publicate pe site-ul Camerei.",
+    "expresie_gasita": "tras chiulul",
+    "id_expresie": "derc_038202"
+  },
+  {
+    "doc_id": "https://stirileprotv.ro/social/educatie-reforma",
+    "text_original": "Ministrul a pus paie pe foc cu declarațiile sale despre cadrele didactice în plin scandal salarial.",
+    "expresie_gasita": "pus paie pe foc",
+    "id_expresie": "derc_039118"
+  },
+  {
+    "doc_id": "https://libertatea.ro/eveniment/divort-celebru",
+    "text_original": "Cei doi soți au scos din mânecă înțelegeri secrete pe care nici avocații nu le cunoșteau înainte de proces.",
+    "expresie_gasita": "scos din mânecă",
+    "id_expresie": "derc_040076"
+  },
+  {
+    "doc_id": "https://gandul.ro/economie/criza-energetica",
+    "text_original": "Companiile au fost luate prin surprindere de noile prețuri la gaze și nu au mai avut timp să se adapteze.",
+    "expresie_gasita": "luate prin surprindere",
+    "id_expresie": "derc_041184"
   }
 ]
